@@ -1,0 +1,125 @@
+.lens {
+    width: 64px;
+    height: 64px;
+    background-color: powderblue;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 294px;
+    margin-top: 229px;
+    z-index: 3;
+}
+.reflect {
+    width: 10px;
+    height: 30px;
+    background-color: snow;
+}
+.scope {
+   height: 100px;
+   width: 100px;
+   background-color: black;
+   border-radius: 50%;
+   position: absolute;
+   margin-left: 276px;
+   margin-top: 181px;
+   z-index: 2;
+   
+}
+.box_center {
+   height: 150px;
+   width: 150px;
+   background-color: darkgrey;
+   position: absolute;
+   margin-left: 250px;
+   margin-top: 155px;
+   z-index: 0;
+}
+.box_left {
+    height: 150px;
+    width: 120px;
+    background-color: grey;
+    position: absolute;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 155px;
+}
+.box_top_left {
+    height: 114px;
+    width: 239px;
+    margin-top: 54px;
+    margin-left: 8px;
+    background-color: gray;
+    transform: rotate(45deg);
+
+}
+.box_top_center {
+    height: 150px;
+    width: 120px;
+    background-color: grey;
+    position: absolute;
+    position: absolute;
+    margin-left: 132px;
+    margin-top: 155px;
+}
+.bolt {
+    height: 20px;
+    width: 21px;
+    background-color: beige;
+    margin-left: 94px;
+    margin-top: -152px;
+    z-index: 3;
+    position: absolute;
+    rotate: 45deg;
+}
+
+.arrow_left_front {
+    width: 0px;
+    height: 0;
+    border-top: 88px solid transparent;
+    border-bottom: 88px solid transparent;
+    border-right: 88px solid white;
+    margin-left: 0px;
+    margin-top: -189px;
+    z-index: 2;
+    position: absolute;
+    rotate: 359deg;
+}
+.arrow_left_back {
+    width: 0px;
+    height: 0;
+    border-top: 88px solid transparent;
+    border-bottom: 88px solid transparent;
+    border-right: 88px solid white;
+    margin-left: 116px;
+    margin-top: 30px;
+    z-index: 2;
+    position: absolute;
+    rotate: 315deg;
+}
+.box_top {
+    height: 114px;
+    width: 239px;
+    margin-top: -195px;
+    margin-left: 88px;
+    background-color: lightgray;
+    transform: rotate(45deg);
+    position: absolute;
+
+}
+.topp {
+    
+    width: 0px;
+    height: 0;
+    border-top: 77px solid transparent;
+    border-bottom: 74px solid transparent;
+    border-right: 88px solid lightgray;
+    margin-left: 283px;
+    margin-top: -132px;
+    z-index: 3;
+    position: absolute;
+    rotate: 90deg;
+
+}
+p {
+    margin-top: 10px;
+    margin-left: 2.9px;
+}

@@ -1,0 +1,67 @@
+body {
+    background-color: seashell;
+}
+
+.main {
+    width: 200px;
+    height: 190px;
+    background-color: tomato;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.jelly1, .jelly2, .jelly3, .jelly4 {
+    width: 30px;
+    height: 30px;
+    background-color: darkmagenta;
+    position: absolute;
+    margin-top: 11.69%;
+    border-bottom-left-radius: -50%;
+    border-bottom-right-radius: -50%;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+}
+
+.jelly1 {
+margin-left: 2.1%;
+border-bottom-left-radius: 25%;
+}
+.jelly2 {
+margin-left: 4.6%;
+}
+.jelly3 {
+margin-left: 7.3%;
+}
+.jelly4 {
+margin-left: 10%;
+border-bottom-right-radius: 25%;
+}
+
+.groove_space1, .groove_space2, .groove_space3, .groove_space4 {
+    width: 14px;
+    height: 16px;
+    background-color: seashell;
+    position: absolute;
+    bottom: 72%;
+    border-bottom-left-radius: -42%;
+    border-bottom-right-radius: -45%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.groove_space1 {
+margin-left: 2.77%;
+}
+.groove_space2 {
+margin-left: 5.11%;
+}
+.groove_space3 {
+margin-left: 7.8%;
+}
+.groove_space4 {
+margin-left: 10.5%;
+}
